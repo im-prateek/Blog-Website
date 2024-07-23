@@ -42,7 +42,7 @@ nav ul{
 
 nav ul li{
     font-size: 1.8rem;
-}
+}z
 
 nav ul li:hover{
     border-bottom: red 2px solid;
@@ -50,11 +50,35 @@ nav ul li:hover{
 }
 main {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 5rem;
 }
 
 #hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.hero-content h1{
+    font-size: 6rem;
+    line-height: 1.2;
+}
+
+.hero-content h4{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.hero-image img{
+    border-radius: 5rem;
+}
+
+/* long card section */
+.h-card{
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+    border: 1.2px solid #e2e2e2;
+    border-radius: 1rem;
+    overflow: hidden;
 }
