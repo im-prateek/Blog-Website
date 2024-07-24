@@ -82,3 +82,25 @@ main {
     border-radius: 1rem;
     overflow: hidden;
 }
+
+.card-content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-btn{
+    all: unset;
+    font-weight: 600;
+}
+
+.read-btn:hover{
+    border-bottom: 1px solid ;
+    cursor: pointer;
+}
