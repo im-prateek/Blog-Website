@@ -119,5 +119,10 @@ main {
 .card-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 0 auto;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
     
 }
