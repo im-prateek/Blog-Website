@@ -149,4 +149,12 @@ footer ul li{
 }
 
 
+/* post section---------------------------- */
+.banner-image img{
+    width: 85vw;
+}
 
+a{
+    text-decoration: none;
+    color: #000;
+}
